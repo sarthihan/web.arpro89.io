@@ -1,0 +1,28 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icon {
+  font-size: 30px;
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+.button:hover {
+  background: #e8b10b;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  transform: scale(1.25);
+  color: var(--bs-dark);
+}
+
+.button {
+  background: var(--bs-yellow);
+  border-radius: 50px;
+  color: var(--bs-dark);
+}
+
